@@ -1,0 +1,23 @@
+{
+  "name": "cypress2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "test1": "npx cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:AngryCFO/JSAQA_Cypress_2.git"
+  },
+  "author": "Alexandra Bujor",
+  "license": "AngryCFO",
+  "bugs": {
+    "url": "https://github.com/AngryCFO/JSAQA_Cypress_2/issues"
+  },
+  "homepage": "https://github.com/AngryCFO/JSAQA_Cypress_2#readme",
+  "devDependencies": {
+    "cypress": "^13.13.0"
+  }
+}
