@@ -15,16 +15,11 @@ jobs:
           node-version: '18'
           cache: 'npm'
       
-      - name: Clear npm cache
-        run: npm cache clean --force
-      
-      - name: Remove existing node_modules and package-lock.json
-        run: |
-          rm -rf node_modules
-          rm -f package-lock.json
-      
       - name: Install dependencies
-        run: npm install
+        run: npm ci || (rm -rf node_modules package-lock.json && npm install)
+      
+      - name: Verify Cypress
+        run: npx cypress verify
       
       - name: Cypress run
         uses: cypress-io/github-action@v6
@@ -32,6 +27,8 @@ jobs:
           record: true
           parallel: false
           install: false
+          config-file: cypress.config.js
         env:
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DEBUG: cypress:server:record
