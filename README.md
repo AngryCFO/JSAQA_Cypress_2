@@ -1,3 +1,4 @@
+[![Cypress_2](https://img.shields.io/endpoint?url=https://cloud.cypress.io/badge/simple/4amvbm&style=flat&logo=cypress)](https://cloud.cypress.io/projects/4amvbm/runs)
 * [Ссылка на дашборд](https://cloud.cypress.io/projects/4amvbm/runs/1/overview?roarHideRunsWithDiffGroupsAndTags=1)
   ![image](https://github.com/user-attachments/assets/94aa5b31-f1cf-4020-a0d0-06741c1a71e8)
 * [Ссылка на пройденные тесты](https://github.com/AngryCFO/JSAQA_Cypress_2/actions/runs/11941110967)
