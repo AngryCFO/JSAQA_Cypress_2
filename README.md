@@ -1,3 +1,7 @@
+* [Ссылка на дашборд](https://cloud.cypress.io/projects/4amvbm/runs/1/overview?roarHideRunsWithDiffGroupsAndTags=1)
+  ![image](https://github.com/user-attachments/assets/94aa5b31-f1cf-4020-a0d0-06741c1a71e8)
+* [Ссылка на пройденные тесты](https://github.com/AngryCFO/JSAQA_Cypress_2/actions/runs/11941110967)
+![image](https://github.com/user-attachments/assets/27caae12-f470-45e2-8d76-18d86734cda2)
 
 # Домашнее задание к занятию «7. Cypress 2»
 
